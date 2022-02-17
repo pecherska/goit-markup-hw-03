@@ -345,12 +345,17 @@ p {
   flex-wrap: wrap;
 }
 
+.border-team {
+  border: 1px solid red;
+}
+
 .project {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+
   border-right: 1px solid #eeeeee;
 }
 
@@ -377,6 +382,7 @@ p {
 
 .project-item {
   padding-left: 24px;
+  padding-bottom: 24px;
 
   color: var(--primary-text-color);
 
