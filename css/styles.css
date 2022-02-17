@@ -245,7 +245,7 @@ p {
 
   text-align: center;
 
-  padding: 0;
+  padding: 0 0 30px 0;
   margin: 0;
 }
 .team .list {
@@ -347,9 +347,8 @@ div > .bord-card {
   border: 1px solid #eeeeee;
 }
 
-li > a.project-link {
-  display: inline-block;
-  margin-top: -4xp;
+img {
+  display: block;
 }
 
 .project-link {
