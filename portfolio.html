@@ -11,38 +11,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
+       
         <link rel="stylesheet" href="./css/styles.css">
 </head>
   
 <body>
     <!--Шапка сайта-->
-    <header class="header container">
+    <header class="header">
     
-        <div class="nav-site main">
+        <div class="nav-site container">
             <nav class="nav-site  ">
                 <a href="./index.html" class="logo"> <span class="logo-accent">Web</span><span
                         class="logo-black">Studio</span></a>
                 <ul class="nav-site-list list">
-                    <li class="item"><a href="./index.html" class="link current">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                    <li class="item"><a href="./index.html" class="link">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
                     <li class="item"><a href="" class=" link">Контакты</a></li>
                 </ul>
             </nav>
+    
+    
+            <ul class="auth-nav list ">
+                <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            </ul>
         </div>
-    
-        <ul class="auth-nav list ">
-            <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
-    
     </header>
     <main>
         <!--Секция фильтр-->
         
-        <section class="section">
+        <section class="section filter">
             <div class="container">
-            <h2 hidden class="section-title"> Проекты</h2>
+            <h2  class="section-title visually-hidden"> Проекты</h2>
             <ul class=" filter-list list">
                 <li class="filter item">
                     <button type="button" class="button secondary" >Все</button>
@@ -157,7 +159,7 @@
         <a href="./index.html" class="logo"><span class="logo-accent">Web</span><span
                 class="logo-white">Studio</span></a>
         <address class="address">
-            г. Киев, пр-т Леси Украинки, 26
+            <p class="contact">г. Киев, пр-т Леси Украинки, 26 </p>
             <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
             <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
         </address>
