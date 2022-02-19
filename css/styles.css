@@ -41,6 +41,7 @@ p {
 
 .header {
   display: flex;
+  border-bottom: #eeeeee;
 }
 .container {
   width: 1200px;
@@ -167,11 +168,15 @@ p {
 /* Секции */
 .section {
   padding-top: 94px;
-}
-
-.section.filter {
   padding-bottom: 94px;
 }
+
+.section:nth-child(3) {
+  padding-top: 0;
+}
+/* .section.filter {
+  padding-bottom: 94px;
+} */
 
 /* .section {
   padding-bottom: 94px;
@@ -240,8 +245,12 @@ p {
   text-align: center;
 
   padding: 0;
-  margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.card-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .feature-list {
@@ -344,7 +353,7 @@ p {
   background-color: var(--bg-color-footer);
 }
 
-.footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -372,7 +381,10 @@ div > .bord-card {
   width: 370px;
 }
 .bord-card {
-  border: 1px solid #eeeeee;
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 img {
@@ -404,9 +416,7 @@ img {
 }
 
 .project-type {
-  margin-top: 20px;
   margin-bottom: 4px;
-  padding-left: 24px;
 
   color: var(--title-text-color);
 
@@ -417,9 +427,6 @@ img {
 }
 
 .project-item {
-  padding-left: 24px;
-  padding-bottom: 24px;
-
   color: var(--primary-text-color);
 
   font-size: 16px;
