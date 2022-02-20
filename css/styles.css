@@ -209,11 +209,10 @@ p {
 }
 
 /* Преимущества, Команда */
-
-.container.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.section.team {
+  background-color: var(--bg-color-secondar);
 }
+
 .title {
   color: var(--title-text-color);
 
@@ -227,10 +226,6 @@ p {
   margin-bottom: 10px;
   padding: 0;
   text-transform: uppercase;
-}
-
-.team {
-  background-color: var(--bg-color-secondar);
 }
 
 .team .item:not(:last-child) {
@@ -447,9 +442,12 @@ img {
   display: flex;
   justify-content: center;
 
-  margin-bottom: 32px;
+  margin-bottom: 50px;
 }
 
 .filter-list > .item:not(last-child) {
   margin-right: 10px;
+}
+.filter.item:last-child {
+  margin-right: 0;
 }
