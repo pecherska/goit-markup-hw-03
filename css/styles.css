@@ -41,7 +41,7 @@ p {
 
 .header {
   display: flex;
-  border-bottom: #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .container {
   width: 1200px;
@@ -174,13 +174,7 @@ p {
 .section:nth-child(3) {
   padding-top: 0;
 }
-/* .section.filter {
-  padding-bottom: 94px;
-} */
 
-/* .section {
-  padding-bottom: 94px;
-} */
 .section-title {
   color: var(--title-text-color);
 
@@ -241,6 +235,7 @@ p {
 
   padding: 0;
   margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .card-team {
@@ -266,7 +261,6 @@ p {
 
   text-align: center;
 
-  padding: 0 0 30px 0;
   margin: 0;
 }
 .team .list {
@@ -412,6 +406,7 @@ img {
 
 .project-type {
   margin-bottom: 4px;
+  margin-top: 0;
 
   color: var(--title-text-color);
 
